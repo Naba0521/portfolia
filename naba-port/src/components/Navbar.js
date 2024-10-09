@@ -68,11 +68,11 @@ export const Navbar = ({ toggleDarkMode, isDark }) => {
       </div>
 
       <div className="lg:flex  hidden ">
-        <div className="flex gap-[24px] border-r-2 border-grey pr-16 items-center dark:text-white">
-          <div>Миний тухай</div>
-          <div>Ажлын туршлага</div>
-          <div>Чадвар</div>
-          <div>Холбоо барих</div>
+        <div className="flex gap-[24px] border-r-2 border-grey pr-16  dark:text-white">
+          <div className="cursor-pointer">Миний тухай</div>
+          <div className="cursor-pointer">Ажлын туршлага</div>
+          <div className="cursor-pointer">Чадвар</div>
+          <div className="cursor-pointer">Холбоо барих</div>
         </div>
         <div className="flex gap-[24px] pl-16 items-center">
           <button onClick={toggleDarkMode}>

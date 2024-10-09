@@ -20,36 +20,36 @@ export const About = () => {
               Миний тухай мэдээлэл
             </div>
             <div>
-              Би full stack developer болохоор аялалаа эхлүүлсэн байгаа бөгөөд
-              өөрийн төсөөлж чадах бүхий л санааг бодит болгох боломжтой гэж
-              боддог. PineCone академид суралцан орчин үеийн Javascript,
-              Next.js, Node.js. гэх мэт технологийг хэрхэн ашиглах талаар
-              суралцсан бөгөөд цаашид өөрөө хичээн илүү ихийг сурах чин
-              хүсэлтэй.
+              Би full stack developer болохоор аялалаа эхлүүлсэн бөгөөд өөрийн
+              төсөөлж чадах бүхий л санааг бодит болгож чадна гэж итгэдэг.
+              PineCone академид суралцан, орчин үеийн JavaScript, Next.js,
+              Node.js зэрэг технологийг хэрхэн ашиглах талаар суралцаж, цаашид
+              илүү ихийг сурах хүсэлтэй байна.
             </div>
             <div>
-              2021 оноос эхлэн 3 жилийн хугацаанд Худалдаа Хөгжлийн Банкинд
-              Онлайн иргэдийн зээлийн бүтээгдэхүүн хариуцсан мэргэжилтэнээр
-              ажилсан туршлагатай. Хөгжүүлэгчийн туршлагын хувьд сургалтын явцад
-              хийсэн төслүүд болон өөрөө нэмэлтээр нийт 10 гаруй төслийг хийж
-              гүйцэтгээд байна.
+              Хөгжүүлэгчийн хувьд сургалтын явцад хийсэн төслүүдийн хамт нийт 10
+              гаруй төслийг гүйцэтгэжээ. Багаар ажиллах болон харилцах чадвараа
+              өмнөх ажлуудаас тодорхой хэмжээгээр хөгжүүлсэн. Одоо өөрийн
+              чадварыг сайжруулж, ажиллаж буй байгууллагадаа үнэ цэнэтэй ажилтан
+              болохыг зорьж байна.
             </div>
-            <div>
-              With a progressive mindset, I enjoy the entire product development
-              process, from ideation to execution. Off duty, you'll find me on
-              Twitter, tracking startup journeys, or unwinding. Follow me for
-              tech insights and public project updates on Twitter or GitHub.
-            </div>
-            <div>Finally, some quick bits about me.</div>
+            <div>Миний боловсролын хувьд:</div>
             <ul>
               <li className="flex gap-[8px] items-center">
-                <FaHandPointRight /> B.E. in Computer Engineering
+                <FaHandPointRight /> 2016 онд Мон-Турк сургууль - Ерөнхий
+                боловсрол
               </li>
               <li className="flex gap-[8px] items-center">
-                <FaHandPointRight /> Avid learner
+                <FaHandPointRight /> 2016-2017 онд Солонгос улсад Hanyang
+                University - Хэлний бэлтгэл
               </li>
               <li className="flex gap-[8px] items-center">
-                <FaHandPointRight /> Full time freelancer
+                <FaHandPointRight /> 2017-2021 онд МУИС - Санхүү менежмент -
+                Бакалавр
+              </li>
+              <li className="flex gap-[8px] items-center">
+                <FaHandPointRight /> 2024 онд PineCone academy - LEAP хөтөлбөр -
+                Software engineer
               </li>
             </ul>
           </div>
