@@ -45,10 +45,18 @@ export const Navbar = ({ toggleDarkMode, isDark }) => {
           </div>
         </div>
         <div className="flex flex-col gap-[16px] text-[#4B5563] pt-[16px] pb-[16px] text-[16px] font-medium dark:text-white">
-          <div>Миний тухай</div>
-          <div>Ажлын туршлага</div>
-          <div>Чадвар</div>
-          <div>Холбоо барих</div>
+          <a href="#about" className="cursor-pointer">
+            Миний тухай
+          </a>
+          <a href="#experience" className="cursor-pointer">
+            Ажлын туршлага
+          </a>
+          <a href="#skills" className="cursor-pointer">
+            Гүйцэтгэсэн төслүүд
+          </a>
+          <a href="#contact" className="cursor-pointer">
+            Холбоо барих
+          </a>
         </div>
         <div className="flex items-center justify-between pt-[16px] text-[#4B5563]">
           <div className="dark:text-white">Switch Theme</div>
@@ -69,10 +77,18 @@ export const Navbar = ({ toggleDarkMode, isDark }) => {
 
       <div className="lg:flex  hidden ">
         <div className="flex gap-[24px] border-r-2 border-grey pr-16  dark:text-white">
-          <div className="cursor-pointer">Миний тухай</div>
-          <div className="cursor-pointer">Ажлын туршлага</div>
-          <div className="cursor-pointer">Чадвар</div>
-          <div className="cursor-pointer">Холбоо барих</div>
+          <a href="#about" className="cursor-pointer">
+            Миний тухай
+          </a>
+          <a href="#experience" className="cursor-pointer">
+            Ажлын туршлага
+          </a>
+          <a href="#skills" className="cursor-pointer">
+            Гүйцэтгэсэн төслүүд
+          </a>
+          <a href="#contact" className="cursor-pointer">
+            Холбоо барих
+          </a>
         </div>
         <div className="flex gap-[24px] pl-16 items-center">
           <button onClick={toggleDarkMode}>

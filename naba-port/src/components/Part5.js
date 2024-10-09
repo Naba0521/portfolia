@@ -4,7 +4,7 @@ import { Button } from "./Button";
 import Image from "next/image";
 export const Part5 = () => {
   return (
-    <div className=" w-[100%] bg-[#F9FAFB] dark:bg-[#111827]">
+    <div className=" w-[100%] bg-[#F9FAFB] dark:bg-[#111827]" id="experience">
       <div className="w-[90%] m-auto flex flex-col gap-[48px]  h-max rounded-[20px] py-[96px]">
         <div className="flex items-center flex-col gap-[16px]">
           <div className=" flex items-center m-auto">

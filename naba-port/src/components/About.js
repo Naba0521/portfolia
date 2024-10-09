@@ -2,7 +2,7 @@ import { Button } from "./Button";
 import { FaHandPointRight } from "react-icons/fa";
 export const About = () => {
   return (
-    <div className=" w-[100%] bg-[#F9FAFB] dark:bg-[#111827]">
+    <div className=" w-[100%] bg-[#F9FAFB] dark:bg-[#111827]" id="about">
       <div className="w-[90%] m-auto flex flex-col gap-[48px]  h-max rounded-[20px] py-[96px]">
         <div className=" flex items-center m-auto ">
           <Button value="Миний тухай" className="" />

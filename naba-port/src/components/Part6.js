@@ -9,7 +9,10 @@ const data = [
 
 export const Part6 = () => {
   return (
-    <div className="w-[90%] m-auto flex flex-col gap-[48px]  h-max rounded-[20px] py-[96px]">
+    <div
+      className="w-[90%] m-auto flex flex-col gap-[48px]  h-max rounded-[20px] py-[96px]"
+      id="skills"
+    >
       <div className="flex items-center flex-col gap-[16px]">
         <div className=" flex items-center m-auto">
           <Button value="Work" />
