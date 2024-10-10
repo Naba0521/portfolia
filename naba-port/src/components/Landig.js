@@ -77,9 +77,9 @@ export const Landig = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-1 items-center justify-center">
+      <div className="flex flex-1 items-center justify-center object-contain">
         <Image
-          src="/me1.jpg"
+          src="/self.jpg"
           alt="Your Image Description"
           width={320}
           height={380}

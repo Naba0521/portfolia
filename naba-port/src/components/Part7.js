@@ -44,11 +44,14 @@ export const Part7 = () => {
       </div>
       <div className="flex flex-col items-center dark:text-[#F9FAFB]">
         <div className="flex gap-[8px] items-center dark:text-[#F9FAFB]">
-          <a href="https://mail.google.com/" className="hover:text-red-500">
+          <a
+            href="https://mail.google.com/"
+            className="hover:text-red-500 lg:text-black"
+          >
             <BiLogoGmail className="w-[28px] h-[28px] dark:bg-[#F9FAFB]" />
           </a>
           <div
-            className="font-semibold text-lg break-words lg:text-[36px] cursor-pointer hover:text-green-500"
+            className="font-semibold text-lg break-words lg:text-[36px]  cursor-pointer hover:text-green-500"
             onClick={() => handleCopy(email)}
           >
             {email}
@@ -92,9 +95,11 @@ export const Part7 = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-[8px]">
-        <div>Миний Social хаягуудаар холбогдох бол:</div>
-        <div className="flex gap-[16px] items-center">
+      <div className="flex flex-col items-center gap-[8px] ">
+        <div className="dark:text-[#F9FAFB]">
+          Миний Social хаягуудаар холбогдох бол:
+        </div>
+        <div className="flex gap-[20px] items-center">
           <div className="flex gap-[20px] items-center">
             <a
               href="https://www.facebook.com/naranbaatar.naraa.940/"

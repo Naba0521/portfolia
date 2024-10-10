@@ -45,11 +45,11 @@ const data = [
     ],
   },
   {
-    title: "MonitorHub",
+    title: "Expense Tracker",
     src: "Picture2.png",
     reverse: true,
-    text: "aaa",
-    link: "a",
+    text: "Өрхийн болон өөрийн орлого зарлагаа бүртгэж хянах санхүүгийн зөв төлөвлөлт хийх боломжийг олгох төсөл юм. Би энэхүү төслийг хийж бүтээснээр  Node JS, Express JS болон Postgre зэрэг технологуудыг ашиглаж сурсан.",
+    link: "https://nabba-codes-7hja.vercel.app/",
     dataIcon: [
       {
         text: "React",
@@ -58,10 +58,10 @@ const data = [
         text: "Next.js",
       },
       {
-        text: "Typescript",
+        text: "ShadCN UI ",
       },
       {
-        text: "PostgreSQL",
+        text: "ChartJS",
       },
       {
         text: "Tailwindcss",
@@ -70,10 +70,10 @@ const data = [
         text: "Figma",
       },
       {
-        text: "Cypress",
+        text: "Postgre",
       },
       {
-        text: "Storybook",
+        text: "Neon.tech",
       },
       {
         text: "Git",
@@ -81,11 +81,11 @@ const data = [
     ],
   },
   {
-    title: "iToim",
+    title: "MetaBlog",
     src: "Picture3.png",
     reverse: false,
-    text: "aaa",
-    link: "a",
+    text: "Технологийн  салбарт ажилладаг хүн үргэлж шинэ зүйл суралцаж, мэдлэгээ бусадтайгаа хуваалцаж байдаг. Энэхүү төслийг хөгжүүлснээр би React js framework болох Next js-ийг API -тэй хамтран ашиглах чадвартай болсон.",
+    link: "https://nabba-codes.vercel.app/",
     dataIcon: [
       {
         text: "React",
@@ -94,22 +94,10 @@ const data = [
         text: "Next.js",
       },
       {
-        text: "Typescript",
-      },
-      {
-        text: "PostgreSQL",
-      },
-      {
         text: "Tailwindcss",
       },
       {
         text: "Figma",
-      },
-      {
-        text: "Cypress",
-      },
-      {
-        text: "Storybook",
       },
       {
         text: "Git",
@@ -126,11 +114,11 @@ export const Part6 = () => {
     >
       <div className="flex items-center flex-col gap-[16px]">
         <div className=" flex items-center m-auto">
-          <Button value="Хийсэн төслүүд" />
+          <Button value="Миний төслүүд" />
         </div>
         <div className="flex ">
           <div className="flex m-auto items-center justify-center dark:text-[#F9FAFB]">
-            Миний хийж гүйцэтгэсэн төслүүд
+            Сургалтын хугацаанд миний хийж гүйцэтгэсэн төслүүд
           </div>
         </div>
       </div>

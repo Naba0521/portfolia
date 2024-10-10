@@ -11,8 +11,8 @@ export const About = () => {
         <div className="flex flex-col lg:flex lg:flex-row ">
           <div className="flex flex-1 items-center justify-center pb-[40px]">
             <img
-              className="shadow-about w-[360px] h-[360px]  rounded-[20px]"
-              src="/self.jpg"
+              className="shadow-about w-[360px] h-[360px]  rounded-[12px] object-cover"
+              src="/me1.jpg"
             />
           </div>
           <div className="flex-1 gap-[16px] flex flex-col dark:text-[#F9FAFB] text-justify">
