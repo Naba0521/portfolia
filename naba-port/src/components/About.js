@@ -100,7 +100,7 @@ export const About = () => {
             {showChampion && (
               <ul id="champion-info">
                 {[
-                  "2021, 2022, 2023 он TDB Esport-Dota2 3-р байр, 2-р байр",
+                  "2021, 2022, 2023 он TDB Esport-Dota2 3-р байр, 2-р байр,Champ",
                   "2024 он PineCone Esport-Dota2 Champion",
                 ].map((item, index) => (
                   <li key={index} className="flex gap-[8px] items-center">
