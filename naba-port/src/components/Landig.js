@@ -7,11 +7,11 @@ import Image from "next/image";
 
 export const Landig = () => {
   return (
-    <div className="w-[90%] m-auto flex flex-col-reverse  lg:flex lg:flex-row items-center h-max py-[96px] gap-[48px]">
+    <div className="w-[90%] m-auto flex flex-col-reverse  lg:flex lg:flex-row items-center h-max py-[24px] gap-[48px]">
       <div className="flex-1 flex flex-col gap-[48px]">
         <div className="flex flex-col gap-[8px]">
-          <h1 className="text-4xl font-extrabold dark:text-[#F9FAFB]">
-            Сайн уу, Наба байна <span className="hand-wave">👋</span>
+          <h1 className="text-xl font-extrabold dark:text-[#F9FAFB] z-10">
+            Сайн уу, М.Наранбаатар байна <span className="hand-wave ">👋</span>
           </h1>
           <div className="text-gray-500 dark:text-[#F9FAFB] text-justify">
             "Би 2021 онд МУИС-ыг Санхүү Менежмент мэргэжлээр төгссөн. 2021 оноос

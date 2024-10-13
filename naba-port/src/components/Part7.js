@@ -29,7 +29,7 @@ export const Part7 = () => {
 
   return (
     <div
-      className="w-[90%] m-auto flex flex-col gap-[48px] h-max rounded-[20px] py-[96px]"
+      className="w-[90%] m-auto flex flex-col gap-[48px] h-max rounded-[20px] py-[24px]"
       id="contact"
     >
       <div className="flex items-center flex-col gap-[16px]">
@@ -51,7 +51,7 @@ export const Part7 = () => {
             <BiLogoGmail className="w-[28px] h-[28px] dark:bg-[#F9FAFB]" />
           </a>
           <div
-            className="font-semibold text-lg break-words lg:text-[36px]  cursor-pointer hover:text-green-500"
+            className="font-semibold text-[16px] break-words lg:text-[36px]  cursor-pointer hover:text-green-500"
             onClick={() => handleCopy(email)}
           >
             {email}
@@ -72,10 +72,10 @@ export const Part7 = () => {
         </div>
         <div className="flex gap-[8px] items-center">
           <div>
-            <FaPhone className="w-[32px] h-[32px] text-gray-400 hover:text-green-500" />
+            <FaPhone className="w-[32px] h-[32px]  text-gray-400 hover:text-green-500" />
           </div>
           <div
-            className="font-semibold text-[36px] cursor-pointer hover:text-yellow-500"
+            className="font-semibold lg:text-[36px] cursor-pointer hover:text-yellow-500 text-[16px]"
             onClick={() => handleCopy(phoneNumber)}
           >
             {phoneNumber}

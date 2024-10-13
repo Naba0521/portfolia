@@ -1,5 +1,6 @@
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import { Button } from "./Button";
+import Image from "next/image";
 export const Part6Card = (props) => {
   return (
     <div
@@ -7,13 +8,15 @@ export const Part6Card = (props) => {
         props.reverse ? "lg:flex-row-reverse " : ""
       }`}
     >
-      <div className="flex flex-1 items-center justify-center bg-[#F3F4F6] px-[48px] py - [48px] rounded - [20px] ">
-        <img
-          className="w-[480px] h-[384px] rounded-[8px] object-contain"
+      <div className="flex lg:flex-1 items-center justify-center bg-[#F3F4F6] px-[48px] py-[48px] rounded-[20px] h-[500px] relative">
+        <Image
+          className="rounded-[8px] object-cover"
           src={props.src}
+          fill
+          alt="Project image"
         />
       </div>
-      <div className="flex flex-col flex-1 gap-[24px] px-[48px] py-[48px] dark:text-[#F9FAFB]">
+      <div className="flex flex-col flex-1 gap-[24px] px-[48px] py-4 dark:text-[#F9FAFB]">
         <div className="font-semibold text-xl">{props.title}</div>
         <div>{props.text}</div>
         <div className="flex gap-[8px] flex-wrap">

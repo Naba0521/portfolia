@@ -31,20 +31,18 @@ export const Part4 = () => {
     const interval = setInterval(() => {
       // Эхний элементийг сүүлд нь оруулна
       setCurrentIcons((prevIcons) => [...prevIcons.slice(1), prevIcons[0]]);
-    }, 2000); // 2000 ms (2 секунд) тутамд солих
+    }, 10000); // 2000 ms (2 секунд) тутамд солих
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="w-[90%] m-auto flex flex-col gap-[24px] h-max rounded-[20px] py-[96px] items-center">
+    <div className="w-[100%] m-auto flex flex-col gap-[24px] h-max rounded-[20px] py-[24px] items-center justify-center">
       <div className="flex items-center m-auto">
         <Button value="Чадварууд" />
       </div>
-      <div className="flex">
-        <div className="flex m-auto items-center justify-center dark:text-[#F9FAFB]">
-          Миний суралцаж, ажиллаж байсан технологиуд:
-        </div>
+      <div className="flex dark:text-[#F9FAFB] text-center ">
+        Миний суралцаж, ажиллаж байсан технологиуд:
       </div>
       <div className="flex gap-[64px] flex-wrap justify-center w-[65%]">
         {currentIcons.map((icon, index) => (
