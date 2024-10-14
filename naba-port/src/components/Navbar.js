@@ -113,7 +113,7 @@ export const Navbar = ({ toggleDarkMode, isDark }) => {
             </div>
           </div>
           <a
-            href="https://online.flippingbook.com/view/16622131/?_gl=1*ucedg4*_gcl_aw*R0NMLjE3Mjg4NzAwMjYuQ2p3S0NBanczNjI0QmhCQUVpd0FreGdUT2tkLXlGcU1lM0VQUndtWXhQNUJod19RckprWldpSEVFTndab1dXTUdKVmRYVGtteUdqWGZSb0NaeUVRQXZEX0J3RQ..*_gcl_au*MTMxNjc2NTQxNS4xNzI4ODcwMDI2"
+            href="https://online.flippingbook.com/view/16694005/"
             target="_blank"
             rel="noopener noreferrer"
           >
