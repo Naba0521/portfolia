@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const Landig = () => {
   return (
-    <div className="w-[90%] m-auto flex flex-col-reverse  lg:flex lg:flex-row items-center h-max py-[24px] gap-[48px]">
+    <div className="w-[90%] m-auto flex flex-col-reverse lg:max-w-[1440px]  lg:flex lg:flex-row items-center h-max py-[24px] gap-[48px]">
       <div className="flex-1 flex flex-col gap-[48px]">
         <div className="flex flex-col gap-[8px]">
           <h1 className="text-xl font-extrabold dark:text-[#F9FAFB] z-10">
@@ -15,14 +15,10 @@ export const Landig = () => {
           </h1>
           <div className="text-gray-500 dark:text-[#F9FAFB] text-justify">
             "Би 2021 онд МУИС-ыг Санхүү Менежмент мэргэжлээр төгссөн. 2021 оноос
-            2024 оны 4 сар хүртэл Зээлийн эдийн засагч, Онлайн хэрэглээний зээл
-            хариуцсан болон Бүтээгдэхүүн хариуцсан мэргэжилтэн албан тушаалуудад
-            тус тус ажилласан туршлагатай. Багаасаа технологийн салбарт
-            сонирхолтой байсан боловч оролдож үзэлгүй явсаар 2023 оноос эхлэн
-            Pinecone академийг сонирхон, 2024 оны хаврын элсэлтээр LEAP
-            хөтөлбөрт элсэн суралцаж байна. Ирээдүйд олон төслүүдэд оролцон
-            чадвараа сайжруулан, дэлхийд үнэлэгдсэн программ хөгжүүлэгч болохоор
-            хичээн суралцах болно."
+            2024 оны 4 сар хүртэл ХХБ-д ажилласан туршлагатай. 2024 оны хаврын
+            элсэлтээр PineCone академид LEAP хөтөлбөрт элсэн суралцсан. Ирээдүйд
+            олон төслүүдэд оролцон чадвараа сайжруулан, дэлхийд үнэлэгдсэн
+            программ хөгжүүлэгч болохоор хичээн суралцах болно."
           </div>
         </div>
         <div className="flex flex-col gap-[8px]">

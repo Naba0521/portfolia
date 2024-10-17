@@ -37,18 +37,18 @@ export const Part4 = () => {
   }, []);
 
   return (
-    <div className="w-[100%] m-auto flex flex-col gap-[24px] h-max rounded-[20px] py-[24px] items-center justify-center">
+    <div className="w-[100%] lg:max-w-[1440px] m-auto flex flex-col gap-[24px] h-max rounded-[20px] py-[24px] items-center justify-center">
       <div className="flex items-center m-auto">
         <Button value="Чадварууд" />
       </div>
-      <div className="flex dark:text-[#F9FAFB] text-center ">
+      <div className="flex dark:text-[#F9FAFB] text-center">
         Миний суралцаж, ажиллаж байсан технологиуд:
       </div>
-      <div className="flex gap-[64px] flex-wrap justify-center w-[65%]">
+      <div className="lg:grid lg:grid-cols-5 grid grid-cols-2 gap-y-10 gap-x-4 w-[100%] m-auto">
         {currentIcons.map((icon, index) => (
           <div
             key={index}
-            className="transition-transform duration-1000 ease-in-out transform"
+            className="flex justify-center items-center transition-transform duration-1000 ease-in-out transform"
             style={{
               transform: `translateY(${Math.sin((index + 1) * 0.5) * 5}px)`, // Жижиг хөдөлгөөн
             }}

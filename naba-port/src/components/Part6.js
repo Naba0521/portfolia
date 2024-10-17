@@ -89,7 +89,7 @@ export const Part6 = () => {
 
   return (
     <div
-      className="w-[90%] m-auto flex flex-col gap-[48px]  h-fit rounded-[20px] py-[24px]"
+      className="w-[90%] m-auto flex flex-col gap-[48px] lg:max-w-[1440px]  h-fit rounded-[20px] py-[24px]"
       id="skills"
     >
       <div className="flex items-center flex-col gap-[16px]">
@@ -127,7 +127,7 @@ export const Part6 = () => {
 
       {/* Conditionally render the other projects */}
       {showMore && (
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 dark:text-[#F9FAFB]">
           {otherProjectData.map((item, index) => (
             <div
               key={index}

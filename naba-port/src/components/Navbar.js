@@ -14,7 +14,7 @@ export const Navbar = ({ toggleDarkMode, isDark }) => {
   };
 
   return (
-    <div className="relative w-[100%] lg:w-[960px] m-auto flex justify-between items-center h-max rounded-[20px] py-[32px]">
+    <div className="relative w-[100%] lg:w-[1440px] m-auto flex justify-between items-center h-max rounded-[20px] py-[32px]">
       <div className="w-[90%] m-auto flex justify-between items-center h-max">
         <div className="text-4xl font-extrabold dark:text-white">NABA</div>
         <div>
@@ -76,9 +76,15 @@ export const Navbar = ({ toggleDarkMode, isDark }) => {
           </div>
         </div>
         <div className="pt-[16px]">
-          <div className="px-[24px] py-[8px] rounded-[16px] bg-black text-white dark:text-black dark:bg-white text-center">
-            CV татах
-          </div>
+          <a
+            href="https://online.flippingbook.com/view/16694005/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="px-[24px] py-[8px] rounded-[16px] bg-black text-white dark:text-black dark:bg-white text-center">
+              CV харах
+            </div>
+          </a>
         </div>
       </div>
 
